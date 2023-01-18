@@ -1,0 +1,3 @@
+# classifying_christmas_jumpers
+
+As our lives become increasingly digital, wardrobe digitisation and styling apps are becoming more popular. This report aims to train an image classification model to classify Christmas jumpers from everyday knitwear. Models explored include CNNs trained from scratch with a range of depths and pre-trained CNNs: AlexNet, VGG and GoogLeNet. To reduce overfitting all models were run on a greyscale version of the dataset, with success. The final model was a finetuned version of the GoogLeNet architecture achieving an accuracy of 93.67%. Exploring the misclassified examples exposed flaws in the dataset and suggest that when tested with a more robust dataset this accuracy can be expected to increase.
